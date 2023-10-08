@@ -36,7 +36,7 @@ function MainSlider(){
                             {/* <p className="main-slider__sub-title">WE CREAT DIGITAL PRODUCT</p> */}
                             <h2 className="main-slider__title">Get ready for a <br/>season of smiles</h2>
                             <p className="main-slider__text">Exclusive Prettau Dental Lab offers aesthetic dentistry,<br/> implants
-and orthodontics. We take a holistic approach to dental care.</p>
+                                and orthodontics. We take a holistic approach to dental care.</p>
                             <div className="main-slider__btn-and-video-box">
                                 <div className="main-slider__btn-box">
                                     <Link to="/contact" className="thm-btn main-slider__btn">Get Consulting</Link>
