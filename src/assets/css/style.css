@@ -1,0 +1,64 @@
+a.active {
+    color: var(--bixola-base) !important;
+}
+.header-bg{
+    background-color: #0d121e !important;
+}
+.main-header{
+    position: fixed !important;
+}
+.team-one__content {
+  background-color: var(--bixola-base) !important;
+}
+
+.portfolio-one__img:before {
+  background: #8D8F94 !important;
+} 
+img{
+   user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+.language{
+    margin-right:25px
+}
+.language .sub-menu{
+    padding: 8px !important;
+    min-width: 140px !important;
+}
+.footer-widget__company-list li+li{
+    margin-top: 0 !important;
+}
+.brand-one__img{
+    filter: brightness(0) invert(1);
+}
+.brand-one__inner{
+    padding: 40px 0 30px !important
+}
+.main-slider__title{
+    text-transform: unset;
+}
+.section-title__tagline::before {
+background-color: #f3920e2b !important;
+ 
+}
+
+.about-two__left {
+  position: relative;
+  display: block;
+  margin-left: 0px !important;
+  margin-top: 47px;
+}
+
+.services-details__feature_two{
+      margin-left: 0px !important;
+      margin-right: 30px !important;
+
+}
+
+ .hight .testimonial-two__single {
+     margin-top: 40px;
+ }
