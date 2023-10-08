@@ -11,6 +11,7 @@ const locales = {
 
 
 function Header(){
+    const [toggle, setToggle] = useState(false)
     const [navbarOpen, setNavbarOpen] = useState(false);
     const { t, i18n } = useTranslation();
 
@@ -89,12 +90,12 @@ return(
                                         <a href="#">Products</a>
                                         <ul className="sub-menu">
                                             <li><Link to="/premium">Premium</Link></li>
-                                            <li><a href="services-carousel.html">Titanium</a></li>
-                                            <li><a href="business-audit.html">Zircon</a></li>
-                                            <li><a href="business-planning.html">Laser Implant</a></li>
-                                            <li><a href="financial-advices.html">Peek Polymer</a></li>
-                                            <li><a href="tax-strategy.html">Acrylic</a></li>
-                                            <li><a href="insurance-strategy.html">Ortho</a></li>
+                                            <li><Link to="/premium">Titanium</Link></li>
+                                            <li><Link to="/premium">Zircon</Link></li>
+                                            <li><Link to="/premium">Laser Implant</Link></li>
+                                            <li><Link to="/premium">Peek Polymer</Link></li>
+                                            <li><Link to="/premium">Acrylic</Link></li>
+                                            <li><Link to="/premium">Ortho</Link></li>
                                         </ul>
                                     </li>
 
@@ -115,8 +116,8 @@ return(
                             <div className="main-menu__right">
                                 <div className="language">
                                     <ul className="main-menu__list">
-                                    <li>
-                                            <a href="#">EN</a>
+                                        <li>
+                                            <span>EN</span>
                                             {/* <ul className="sub-menu">
                                                 {Object.keys(locales).map((locale) => (
                                                     <li key={locale}><a style={{ fontWeight: i18n.resolvedLanguage === locale ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(locale)}>
@@ -165,15 +166,21 @@ return(
                         <li class="dropdown current megamenu">
                             <Link to="/about">About </Link>
                         </li>
-                        <li class="dropdown current megamenu">
+                        <li class="dropdown current megamenu" >
                             <a href="#">Products
-                                <button aria-label="dropdown toggler"><i class="fa fa-angle-down"></i></button>
+                                <button aria-label="dropdown toggler" className={`${toggle ? 'expanded' : ''}`}  onClick={() => setToggle(!toggle)}><i class="fa fa-angle-down"></i></button>
                              </a>
-                             <ul class="sub-menu d-none">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="services-carousel.html">Services Carousel</a></li>
-                                <li><a href="business-audit.html">Business Audit</a></li>
-                            </ul>
+                             {toggle && (
+                                <ul class={`sub-menu${navbarOpen ? ' d-block' : 'd-none'}`} >
+                                    <li><Link to="/premium">Premium</Link></li>
+                                    <li><Link to="/premium">Titanium</Link></li>
+                                    <li><Link to="/premium">Zircon</Link></li>
+                                    <li><Link to="/premium">Laser Implant</Link></li>
+                                    <li><Link to="/premium">Peek Polymer</Link></li>
+                                    <li><Link to="/premium">Acrylic</Link></li>
+                                    <li><Link to="/premium">Ortho</Link></li>
+                                </ul>
+                             )}
                         </li> 
                         <li class="dropdown current megamenu">
                             <Link to="/events">Events </Link>
@@ -193,19 +200,18 @@ return(
                 <ul class="mobile-nav__contact list-unstyled">
                     <li>
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@packageName__.com">needhelp@bixola.com</a>
+                        <a href="mailto:help@company.com">Prettau.ptrettau@gmail.com</a>
                     </li>
                     <li>
                         <i class="fa fa-phone-alt"></i>
-                        <a href="tel:666-888-0000">666 888 0000</a>
+                        <a href="tel:+9647700372464">+964 770 037 2464</a>
                     </li>
                 </ul>
                 <div class="mobile-nav__top">
                     <div class="mobile-nav__social">
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-facebook-square"></a>
-                        <a href="#" class="fab fa-pinterest-p"></a>
-                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="https://www.facebook.com/Prettau-Lumineer-127597173974796/" class="fab fa-facebook-square"></a>
+                        <a href="https://www.youtube.com/channel/UCfTmPFfWHlAIOwnlLMa7igw" class="fab fa-youtube"></a>
+                        <a href="https://www.instagram.com/prettau_dental_lab/?fbclid=IwAR21GZnx1SyeCBB14au0or9daS772BiSPfdqHsNPun8sCEiqqu_U9G54wwg" class="fab fa-instagram"></a>
                     </div>
                 </div>
             </div>
