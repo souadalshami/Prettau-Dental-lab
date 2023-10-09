@@ -31,7 +31,7 @@ function PageHeader(){
                     <ul class="thm-breadcrumb list-unstyled">
                         <li><Link to="/">Home</Link></li>
                         <li><span class="icon-down-arrow"></span></li>
-                        <li>News Left</li>
+                        <li>Premium</li>
                     </ul>
                 </div>
             </div>

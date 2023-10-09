@@ -71,3 +71,13 @@ background-color: #f3920e2b !important;
   content: "";
   background: gray !important;
 }
+
+@media only screen and (max-width: 912px) {
+    body .custom-cursor__cursor ,.custom-cursor__cursor-two {
+        display: none !important
+    }
+}
+
+.scroll-to-top{
+    cursor: pointer;
+}
