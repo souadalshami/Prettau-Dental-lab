@@ -31,7 +31,7 @@ import shapetwo from "../../assets/images/shapes/portfolio-one-shape-2.png"
 }
 
 
-function EvantsSection(){
+function EventsSection(){
 
     return(
         <section class="portfolio-one" >
@@ -73,4 +73,4 @@ function EvantsSection(){
 
 
 }
-export default EvantsSection;
+export default EventsSection;

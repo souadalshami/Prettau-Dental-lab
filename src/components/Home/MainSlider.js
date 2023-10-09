@@ -43,7 +43,7 @@ function MainSlider(){
                                 </div>
                                 <div className="main-slider__video-link">
                               <Fancybox>
-                                <a data-fancybox href="https://www.youtube.com/watch?v=Get7rqXYrbQ" className="video-popup">
+                                <a data-fancybox href="https://www.youtube.com/watch?v=tiSiJ-8y6J8" className="video-popup">
                                         <div className="main-slider__video-icon">
                                             <span className="fa fa-play"></span>
                                             <i className="ripple"></i>

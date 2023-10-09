@@ -1,8 +1,8 @@
-import PageHeader from "../components/Evants/PageHeader";
-import EvantsSection from "../components/Evants/EvantsSection";
+import PageHeader from "../components/Events/PageHeader";
 import Header from "../components/layout/Header";
 import PageFooter from "../components/layout/PageFooter";
 import { useDocumentTitle } from "../setDocumentTitle";
+import EventsSection from "../components/Events/EventsSection";
 
 function Evants() {
   useDocumentTitle("Events || Prettau Dental Lab");
@@ -10,7 +10,7 @@ function Evants() {
     <div>
       <Header />
       <PageHeader />
-      <EvantsSection/>
+      <EventsSection/>
       <PageFooter />
     </div>
   );

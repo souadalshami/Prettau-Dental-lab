@@ -100,7 +100,7 @@ return(
                                     </li>
 
                                     <li>
-                                        <NavLink exact="true" to="/evants">Evants</NavLink>
+                                        <NavLink exact="true" to="/Events">Events</NavLink>
                                     </li>
                                     <li>
                                         <NavLink exact="true" to="/certificates">Certificates</NavLink>

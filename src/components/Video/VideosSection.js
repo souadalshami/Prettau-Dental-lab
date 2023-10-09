@@ -65,13 +65,13 @@ return (
                 <div class="item">
                     <div class="team-one__single">
                         <Fancybox>
-                            <a data-fancybox href="https://www.youtube.com/watch?v=5iTqUp6Vuds">
+                            <a data-fancybox href="https://www.youtube.com/watch?v=cxjBtN7uC-g">
                                 <img class="card-img-top img-fluid" src={Dubai} /> 
                             </a>                            
                         </Fancybox>
                         <div class="team-one__content">
                             <h3 class="team-one__name">
-                                <a href="https://www.youtube.com/watch?v=5iTqUp6Vuds" target="_blank">E-MAX</a>
+                                <a href="https://www.youtube.com/watch?v=cxjBtN7uC-g" target="_blank">Zercon</a>
                             </h3>
                         </div>
                     </div>
