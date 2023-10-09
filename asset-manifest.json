@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Prettau-Dental-lab/static/css/main.018449be.css",
-    "main.js": "/Prettau-Dental-lab/static/js/main.32e34d2a.js",
+    "main.css": "/Prettau-Dental-lab/static/css/main.c7b529fc.css",
+    "main.js": "/Prettau-Dental-lab/static/js/main.700c2808.js",
     "static/js/787.28cb0dcd.chunk.js": "/Prettau-Dental-lab/static/js/787.28cb0dcd.chunk.js",
     "static/media/slider-1-1.jpg": "/Prettau-Dental-lab/static/media/slider-1-1.86c3b1e8bc2a9661690d.jpg",
     "static/media/fa-solid-900.svg": "/Prettau-Dental-lab/static/media/fa-solid-900.ca408b63c26d83dbd1e4.svg",
@@ -31,8 +31,10 @@
     "static/media/fa-regular-400.eot": "/Prettau-Dental-lab/static/media/fa-regular-400.08f9891a6f44d9546678.eot",
     "static/media/fa-regular-400.ttf": "/Prettau-Dental-lab/static/media/fa-regular-400.1495f578452eb676f730.ttf",
     "static/media/counter-one-bg.png": "/Prettau-Dental-lab/static/media/counter-one-bg.dac20fc7af5ee1190315.png",
+    "static/media/Dubai.jpg": "/Prettau-Dental-lab/static/media/Dubai.5de0db6aa5a2b53ac1fa.jpg",
     "static/media/site-footer-shape-1.png": "/Prettau-Dental-lab/static/media/site-footer-shape-1.539eb73b8878cb5cc063.png",
-    "static/media/Dubai.jpg": "/Prettau-Dental-lab/static/media/Dubai.7d1bf28410ed3b83f574.jpg",
+    "static/media/image_video.jpg": "/Prettau-Dental-lab/static/media/image_video.7d1bf28410ed3b83f574.jpg",
+    "static/media/New_year.jpg": "/Prettau-Dental-lab/static/media/New_year.4387b044b0331725b435.jpg",
     "static/media/yetal.png": "/Prettau-Dental-lab/static/media/yetal.b80920faaca3783ba034.png",
     "static/media/fa-regular-400.woff": "/Prettau-Dental-lab/static/media/fa-regular-400.1069ea55beaa01060302.woff",
     "static/media/about-one-shape-3.png": "/Prettau-Dental-lab/static/media/about-one-shape-3.516eac5a9d0db5e07008.png",
@@ -47,12 +49,12 @@
     "static/media/about-one-shape-1.png": "/Prettau-Dental-lab/static/media/about-one-shape-1.616a97bab726628514f6.png",
     "index.html": "/Prettau-Dental-lab/index.html",
     "static/media/getFetch.cjs": "/Prettau-Dental-lab/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.018449be.css.map": "/Prettau-Dental-lab/static/css/main.018449be.css.map",
-    "main.32e34d2a.js.map": "/Prettau-Dental-lab/static/js/main.32e34d2a.js.map",
+    "main.c7b529fc.css.map": "/Prettau-Dental-lab/static/css/main.c7b529fc.css.map",
+    "main.700c2808.js.map": "/Prettau-Dental-lab/static/js/main.700c2808.js.map",
     "787.28cb0dcd.chunk.js.map": "/Prettau-Dental-lab/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.018449be.css",
-    "static/js/main.32e34d2a.js"
+    "static/css/main.c7b529fc.css",
+    "static/js/main.700c2808.js"
   ]
 }
