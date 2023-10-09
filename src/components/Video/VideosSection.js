@@ -3,6 +3,8 @@ import Fancybox from "../Fancybox.js";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Dubai from '../../assets/images/team/Dubai.jpg';
+import new_year from '../../assets/images/team/New_year.jpg';
+import image_video from '../../assets/images/team/image_video.jpg';
 export default function VideosSection() { 
 
     const options = {
@@ -52,7 +54,7 @@ return (
                     <div class="team-one__single">
                         <Fancybox>
                             <a data-fancybox href="https://www.youtube.com/watch?v=0slrHvSzt_s">
-                                <img class="card-img-top img-fluid" src={Dubai} /> 
+                                <img class="card-img-top img-fluid" src={new_year} /> 
                             </a>                            
                         </Fancybox>
                         <div class="team-one__content">
@@ -66,7 +68,7 @@ return (
                     <div class="team-one__single">
                         <Fancybox>
                             <a data-fancybox href="https://www.youtube.com/watch?v=cxjBtN7uC-g">
-                                <img class="card-img-top img-fluid" src={Dubai} /> 
+                                <img class="card-img-top img-fluid" src={image_video} /> 
                             </a>                            
                         </Fancybox>
                         <div class="team-one__content">
