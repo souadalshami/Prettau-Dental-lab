@@ -1,6 +1,7 @@
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import testimonial_1 from '../../assets/images/testimonial/testimonial-1-1.jpg'
 
 const options = {
     "loop": true,
@@ -34,9 +35,10 @@ function Testimonial(){
                 <h3 className="section__title-two">People talking about us</h3>
                 <div className="testimonial-two__bottom">
                     <OwlCarousel classNameName="testimonial-two__carousel owl-carousel owl-theme thm-owl__carousel" {...options}>
+                    <div className="hight">
                         <div className="testimonial-two__single">
                             <div className="testimonial-two__client-img">
-                                <img src="assets/images/testimonial/testimonial-2-1.jpg" alt=""/>
+                                <img src={testimonial_1} alt=""/>
                             </div>
                             <div className="testimonial-two__client-info">
                                 <h3>Jacob Jones</h3>
@@ -53,11 +55,13 @@ function Testimonial(){
                                 <span className="icon-star-1"></span>
                             </div>
                         </div>
-                        <div className="testimonial-two__single">
+                    </div>
+                        {/* <div className="testimonial-two__single">
                             <div className="testimonial-two__client-img">
-                                <img src="assets/images/testimonial/testimonial-2-1.jpg" alt=""/>
+                                <img src={testimonial_1} alt=""/>
                             </div>
                             <div className="testimonial-two__client-info">
+                                
                                 <h3>Jacob Jones</h3>
                                 <p>CEO & Co-Founder</p>
                             </div>
@@ -71,7 +75,7 @@ function Testimonial(){
                                 <span className="icon-star-1"></span>
                                 <span className="icon-star-1"></span>
                             </div>
-                        </div>
+                        </div> */}
                     </OwlCarousel>
                 </div>
             </div>
