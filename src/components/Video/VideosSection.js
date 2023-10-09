@@ -76,7 +76,7 @@ return (
                         </div>
                     </div>
                 </div>
-                <div class="item">
+                {/* <div class="item">
                     <div class="team-one__single">
                         <Fancybox>
                             <a data-fancybox href="https://www.youtube.com/watch?v=cxjBtN7uC-g">
@@ -117,7 +117,7 @@ return (
                             </h3>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </OwlCarousel>
         </div>
     </section>
