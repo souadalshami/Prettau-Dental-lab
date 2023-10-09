@@ -16,27 +16,29 @@ function Details(){
                         <div class="services-details__left">
                             <div class="services-details__services-box">
                                 <ul class="services-details__services-list list-unstyled">
-                                    <li class="active">
-                                        <a to="/ProductDetails"> Audit<span class="icon-right-arrow1"></span></a>
-                                    </li>
                                     <li>
-                                        <Link to="/premium">Business Planning<span
+                                        <Link to="/premium">Titanium<span
                                                 class="icon-right-arrow1"></span></Link>
                                     </li>
                                     <li>
-                                        <Link to="/premium">Financial Advices<span
+                                        <Link to="/premium">Zircon<span
                                                 class="icon-right-arrow1"></span></Link>
                                     </li>
                                     <li>
-                                        <Link to="/premium">Tax Strategy<span
+                                        <Link to="/premium">Laser Implant<span
                                                 class="icon-right-arrow1"></span></Link>
                                     </li>
                                     <li>
-                                        <Link to="/premium">Insurance Strategy<span
+                                        <Link to="/premium">Peek Polymer<span
                                                 class="icon-right-arrow1"></span></Link>
                                     </li>
                                     <li>
-                                        <Link to="/premium">Start Ups<span class="icon-right-arrow1"></span></Link>
+                                        <Link to="/premium">Acrylic<span
+                                                class="icon-right-arrow1"></span></Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/premium">Ortho<span
+                                                class="icon-right-arrow1"></span></Link>
                                     </li>
                                 </ul>
                             </div>

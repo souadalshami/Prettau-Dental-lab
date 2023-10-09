@@ -54,12 +54,11 @@ function PageFooter(){
                                     <li><Link to="/premium">Premium</Link></li>
                                     <li><Link to="/premium">Titanium</Link></li>
                                     <li><Link to="/premium">Zircon</Link></li>
-                                    <li><Link to="/tax-strategy.html">Laser Implant
+                                    <li><Link to="/premium">Laser Implant
                                         </Link></li>
-                                    <li><a href="financial-advices.html">Peek Polymer
-                                        </a></li>
-                                    <li><a href="insurance-strategy.html">Acrylic</a></li>
-                                    <li><a href="insurance-strategy.html">Ortho</a></li>
+                                    <li><Link to="/premium">Peek Polymer </Link></li>
+                                    <li><Link to="/premium">Acrylic </Link></li>
+                                    <li><Link to="/premium">Ortho</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -70,11 +69,9 @@ function PageFooter(){
                                     <h3 className="footer-widget-two__title">Latest Blogs</h3>
                                 </div>
                                 <ul className="footer-widget-two__company-list list-unstyled">
-                                    <li><Link to="/premium">V_max Multilayered 4D Case 1</Link></li>
-                                    <li><Link to="/tax-strategy.html">Porcelain Fusedto 4D Case 1
-                                        </Link></li>
-                                    <li><a href="financial-advices.html">E_max Multilayered 4D Case 1
-                                        </a></li>
+                                    <li><Link to="/ProductDetails">V_max Multilayered 4D Case 1</Link></li>
+                                    <li><Link to="/ProductDetails">Porcelain Fusedto 4D Case 1</Link></li>
+                                    <li><Link to="/ProductDetails">E_max Multilayered 4D Case 1</Link></li>
                                 </ul>
                             </div>
                         </div>

@@ -117,7 +117,7 @@ return(
                                 <div className="language">
                                     <ul className="main-menu__list">
                                         <li>
-                                            <span>EN</span>
+                                            <a href="#">EN</a>
                                             {/* <ul className="sub-menu">
                                                 {Object.keys(locales).map((locale) => (
                                                     <li key={locale}><a style={{ fontWeight: i18n.resolvedLanguage === locale ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(locale)}>
