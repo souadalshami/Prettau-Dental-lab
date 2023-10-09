@@ -5,6 +5,7 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 import before from '../../assets/images/resources/before.jpg'
 import after from '../../assets/images/resources/after.jpg'
 import { Link } from 'react-router-dom';
+import Fancybox from "../Fancybox.js"; 
 
 function Details(){
 
@@ -101,12 +102,14 @@ function Details(){
                                 <div class="services-details__feature-img">
                                     <img src={services_details_img_2}  alt=""/>
                                     <div class="services-details__video-link">
-                                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                            <div class="services-details__video-icon">
-                                                <span class="fa fa-play"></span>
-                                                <i class="ripple"></i>
-                                            </div>
-                                        </a>
+                                        <Fancybox>
+                                            <a data-fancybox href="https://www.youtube.com/watch?v=xLh9ZsrcrZc&ab_channel=Prettaudentallab" class="video-popup">
+                                                <div class="services-details__video-icon">
+                                                    <span class="fa fa-play"></span>
+                                                    <i class="ripple"></i>
+                                                </div>
+                                            </a>
+                                        </Fancybox>
                                     </div>
                                 </div>
                                 <div class="services-details__feature">
